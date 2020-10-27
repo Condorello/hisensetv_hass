@@ -1,7 +1,7 @@
 """ Hisense Television Integration. """
 from hisensetv import HisenseTv
 from homeassistant.components.switch import PLATFORM_SCHEMA
-from homeassistant.components.switch import SwitchDevice
+from homeassistant.components.switch import SwitchEntity
 from homeassistant.const import CONF_BROADCAST_ADDRESS
 from homeassistant.const import CONF_HOST
 from homeassistant.const import CONF_MAC
