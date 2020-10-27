@@ -62,7 +62,7 @@ def setup_platform(
     )
 
 
-class HisenseTvEntity(SwitchDevice):
+class HisenseTvEntity(SwitchEntity):
     def __init__(self, host: str, mac: str, name: str, broadcast_address: str):
         self._name = name
         self._host = host
